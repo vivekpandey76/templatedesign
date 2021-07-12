@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+.big-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign__up {
+  padding: 8px 35px;
+  background-color: #4ca9ee;
+  background: #4ca9ee;
+  color: white;
+  border: none;
+  border-radius: 26px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.hero__section {
+  background-image: url("images/HeroSection.png");
+  height: 90vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero__section h4 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 40px;
+}
+
+.hero__section p {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  max-width: 684px;
+}
+.hero__text {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about__section {
+  display: flex;
+  max-width: 1100px;
+  justify-content: space-between;
+  margin: 100px auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.svgs__text {
+  display: flex;
+  align-items: center;
+}
+
+.svg {
+  height: 100px;
+  width: 100px;
+}
+
+.contact-form {
+  height: 630px;
+  width: 400px;
+  background-color: black;
+  margin-top: -180px;
+}
+.contact-form form input {
+  margin-left: 46px;
+  margin-right: 46px;
+  width: 308px;
+  height: 46px;
+}
+.inputbtn {
+  margin-bottom: 18px;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 5px;
+  padding-left: 13px;
+  line-height: 21px;
+  color: #757575;
+}
+
+#appointment {
+  margin-left: 46px;
+  margin-right: 46px;
+  width: 325px;
+  height: 46px;
+  margin-bottom: 18px;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 5px;
+  padding-left: 13px;
+  line-height: 21px;
+  color: #757575;
+}
+.schedule {
+  margin-left: 46px;
+  margin-right: 46px;
+  background: #4ca9ee;
+  border-radius: 10px;
+  border: none;
+  width: 325px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.text h1 {
+  width: 204px;
+  height: 76px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  margin: auto;
+  margin-bottom: 25px;
+  padding-top: 33px;
+  color: #ffffff;
+}
+.text p {
+  width: 291px;
+  height: 36px;
+  margin: auto;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.actualsession {
+  display: flex;
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 30px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.actualsession .head {
+  max-width: 370px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 50px;
+}
+
+.actualsession .text {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 50px;
+  color: rgba(117, 117, 117, 1);
+}
+
+.rightpart img {
+  max-width: 750px;
+  max-height: 505px;
+}
+
+.booksession__box {
+  background-color: #000;
+}
+
+.booksession {
+  max-width: 1320px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 76px 30px;
+}
+
+.footer__btn {
+  height: 50px;
+  width: 200px;
+  border-radius: 48px;
+  border: none;
+  background: #27e7cd;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.mobile-form {
+  display: none;
+}
+.two {
+  background-color: white;
+  margin-left: 20px;
+}
+.book__head {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.book__text {
+  max-width: 600px;
+}
+.footer {
+  padding: 60px 30px;
+}
+
+.footer__links {
+  max-width: 540px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__links a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+.footer p {
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  color: #413f3f;
+}
+.privacy {
+  max-width: 140px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.privacy a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  color: #413f3f;
+}
+
+@media screen and (max-width: 414px) {
+  .navbar {
+    height: 50px;
+  }
+  .company__logo .dumble {
+    width: 41px;
+    height: 24px;
+  }
+  .company__logo .logoname {
+    width: 101px;
+    height: 15px;
+  }
+  .company__logo {
+    margin-left: 10px;
+  }
+
+  .svg img {
+    margin-right: 45px;
+  }
+  .sign__up {
+    background-color: #000;
+    margin-right: 14px;
+    font-size: 10px;
+    border-radius: 14px;
+  }
+  .hero__section {
+    background-position: center;
+    background-size: 100% 100%;
+    height: 60vh;
+  }
+  .hero__text h4 {
+    font-size: 1rem;
+    margin-bottom: 25px;
+    line-height: 50px;
+  }
+  .hero__section p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .about__section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .text h1 {
+    width: 329px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 48px;
+  }
+  .contact-form {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .contact-form form input {
+    margin-left: 56px;
+    margin-right: 46px;
+    max-width: 269px;
+    height: 46px;
+  }
+  .ignore {
+    display: none;
+  }
+  .schedule {
+    margin-left: 56px;
+    margin-right: 46px;
+    max-width: 289px;
+    height: 46px;
+  }
+  .section__diet {
+    margin-left: 15px;
+    margin-bottom: 60px;
+  }
+  .actualsession {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftpart .head {
+    width: 336px;
+    height: 30px;
+    margin-left: 29px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .leftpart .text {
+    margin-left: 28px;
+    width: 312px;
+    height: 35px;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: justify;
+  }
+  .rightpart img {
+    width: 302px;
+    margin-left: 32px;
+    margin-right: 82px;
+  }
+  .booksession {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftside .book__head {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .leftside .book__text {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 20px;
+  }
+  .rightside {
+    display: flex;
+    flex-direction: row;
+  }
+  .rightside .footer__btn {
+    width: 107.45px;
+    height: 26.68px;
+    font-weight: 600;
+    font-size: 8.01497px;
+    line-height: 10px;
+    position: relative;
+    left: -60px;
+  }
+  .rightside .one {
+    background-color: black;
+    color: white;
+    border: 0.545436px solid #ffffff;
+  }
+  .two {
+    background-color: white;
+    border: 0.545436px solid #4ca9ee;
+    color: black;
+    margin-left: 8px;
+  }
+  .footer__links a {
+    font-size: 9.19626px;
+    line-height: 13px;
+  }
+  .footer p {
+    font-weight: normal;
+    font-size: 9.35701px;
+    line-height: 10px;
+  }
+  .privacy a {
+    font-size: 6.43738px;
+    line-height: 9px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 415px) {
+  .company__logo .dumble {
+    width: 51px;
+    height: 29px;
+  }
+  .company__logo .logoname {
+    width: 111px;
+    height: 20px;
+  }
+  .sign__up {
+    margin-right: 10px;
+  }
+  .hero__text h4 {
+    font-size: 32px;
+    margin-bottom: 0px;
+  }
+  .hero__text p {
+    font-size: 16px;
+    line-height: 2;
+  }
+  .about__section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .section__diet {
+    margin-left: 134px;
+    margin-bottom: 60px;
+  }
+  .contact-form {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .contact-form .text h1 {
+    font-size: 29px;
+  }
+  .contact-form form input {
+    margin-left: 86px;
+    margin-right: 46px;
+    width: 469px;
+    height: 46px;
+  }
+  #appointment {
+    margin-left: 86px;
+    margin-right: 46px;
+    width: 487px;
+    height: 46px;
+  }
+  .schedule {
+    margin-left: 86px;
+    margin-right: 46px;
+    width: 487px;
+    height: 46px;
+  }
+  .actualsession {
+    display: flex;
+    flex-direction: column;
+  }
+  .booksession {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightside {
+    position: relative;
+    left: -128px;
+  }
+  .footer__btn {
+    width: 160px;
+    border: none;
+  }
+}
